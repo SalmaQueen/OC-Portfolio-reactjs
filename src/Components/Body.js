@@ -10,8 +10,11 @@ export default class Body extends Component {
 		return (
 			<div>
 				<Home/>
+				<hr class="hr3"/>
 				<About/>
+				<hr class="hr3"/>
 				<Skills/>
+				<hr class="hr3"/>
 				<Work/>
 			</div>
 		)

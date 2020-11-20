@@ -12,7 +12,8 @@ export default class Skills extends Component {
                 <div className="row section-separator">
                     <div className="col-md-6">
                         <div>
-                            <img src={skills} alt="skill photo" className="about-img pt-5" / >
+                            <img src={skills} alt="skill photo" 
+                            className="about-img " style={{width:"100%"}} / >
                         </div>
                     </div>
                     <div className="col-md-6">

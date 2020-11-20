@@ -6,34 +6,15 @@ export default class Navbar extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar navbar-expand-lg navbar-light bg-display">
-	    		<a className="navbar-brand " to="#home" style={{fontWeight:'600', fontSize:'2.5rem'}}>Portfolio<span className="sr-only">(current)</span></a>
+                <nav className="navbar navbar-expand-lg navbar-light bg-display fixed">
+	    		<a className="navbar-brand text-white" to="#home" style={{fontWeight:'600', fontSize:'2.5rem'}}>Portfolio<span className="sr-only">(current)</span></a>
                 <button className="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
                  style={{color: 'pink'}}>
 	    			<span className="navbar-toggler-icon "></span>
 	    		</button>
 		    	<div className="collapse navbar-collapse " id="navbarNavDropdown">
 		      		<ul className="navbar-nav ml-auto">
-					  {/* <li className="nav-item active">
 					
-		          			<a className="nav-link " href="#Home">Home</a>
-						
-		        		</li>
-		        		<li className="nav-item active">
-					
-		          			<a className="nav-link " href="#about">About </a>
-						 
-		        		</li>
-						<li className="nav-item active">
-                        <a className="nav-link " href="#skills">Skills</a>
-				        </li>
-				        <li className="nav-item active">
-                        <a className="nav-link " href="#work">Work</a>
-				        </li>
-				       
-				        <li className="nav-item active">
-                        <a className="nav-link " href="#contact">Contact </a>
-				        </li> */}
 
 
 

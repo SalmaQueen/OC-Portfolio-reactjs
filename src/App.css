@@ -7,22 +7,18 @@ body {
 	font-family: 'Fira Code', monospace;  
 }
 
-@media only screen and (max-width: 800px) {
-  #shecode img{
-    padding-left: 0rem;
-    padding-right: 5rem;
-  }
-  .home{
-   
-    padding-bottom: 1rem;
-  }
-  
+ @media only screen and (max-width: 800px) {
+#home{
+  padding: 0;
+  padding-left: 2rem;
 }
+  
+} 
 
 /*home*/
 .home{
   padding-top: 2rem;
-	padding-bottom: 40px;
+	/* padding-bottom: 40px; */
 }
 .home h1{
 	color: #f879e7;
@@ -201,18 +197,26 @@ to {opacity:1;}
 /*work*/
 .work{
 	width: 100%;
-	height:auto; 
-	background: linear-gradient(to right, #ec008c, #fc6767);
-	background: linear-gradient(25deg, #845ec2, #ff6f91);
+	/* height:auto;  */
+  background: #42275a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.bg-display{
+  background: #42275a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:white;
 }
 .work h1{
 	text-align: center;
 	font-size: 2.5rem;
-	color: black;
+	color: white;
 }
 .work p{
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 #shecode img{
   border-radius: 5%;
@@ -265,10 +269,10 @@ to {opacity:1;}
 .menu-link {
 	text-decoration: none;
 	font-size: 2em;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	font-weight: 400;
 	font-family: Roboto, sans-serif;
-	color: black;
+	color: white;
     
   transition: all 1s ease-out;
 }
@@ -282,6 +286,18 @@ to {opacity:1;}
 
 
 .menu-link:hover {
-    color: #1f93ff;
+    color: #f1a3e1;
     font-size: 2.5em;
+}
+
+
+hr.hr3 {
+  border: 0;
+  height: 0;
+  border-top: 1px solid #8c8c8c;
+}
+hr {
+  background-color: #fff;
+  padding: 0;
+  margin: 80px;
 }

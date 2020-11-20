@@ -10,7 +10,7 @@ export default class Home extends Component {
                 <div className="container">
                     <div className="row" >
                         <div className="col-md-6" >
-                            <div className="content">
+                            <div className="content" style={{padding:'3rem'}}>
                                 <div className="real-content">
                                     <h1>Salma Mohamed</h1>
                                     <h4>Software Developer</h4>
@@ -24,6 +24,7 @@ export default class Home extends Component {
                 </div>
                 </div>
             </section> 
+            
             </div>
         )
     }
