@@ -11,7 +11,7 @@ export default class Footer extends Component {
                     <li><a href="https://github.com/SalmaQueen"><i className="fa fa-github"></i></a></li>
                     <li><a href="https://www.linkedin.com/in/salma-mohamed-4b991115a/"><i className="fa fa-linkedin"></i></a></li>
                 </ul>
-                <p>&copy;Salma@2020</p>
+                <p>&copy;Salma-Mohamed@2020</p>
              </div>
                 
         </div>
